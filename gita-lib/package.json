@@ -1,5 +1,5 @@
 {
-  "name": "gita",
+  "name": "gita-lib",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "chalk": "^5.4.1",
-    "commander": "^14.0.0",
     "fs-extra": "^11.3.0",
     "simple-git": "^3.28.0"
   }

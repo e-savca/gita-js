@@ -1,0 +1,8 @@
+{
+  "name": "gita-ui",
+  "private": true,
+  "workspaces": [
+    "gita-lib",
+    "gita-cli"
+  ]
+}
