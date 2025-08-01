@@ -1,21 +1,21 @@
 {
   "name": "gita-cli",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "bin": {
     "gita": "./bin/gita.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm bin/gita.ts hello"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "gita-lib": "*",
     "chalk": "^5.4.1",
     "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2"
   }
 }

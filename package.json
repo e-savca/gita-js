@@ -4,5 +4,13 @@
   "workspaces": [
     "gita-lib",
     "gita-cli"
-  ]
+  ],
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "start": "npm --workspace gita-cli run start"
+  }
 }
