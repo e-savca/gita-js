@@ -2,6 +2,10 @@
   "name": "gita-cli",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "gita": "./bin/gita.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
